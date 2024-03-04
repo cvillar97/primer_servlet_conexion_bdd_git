@@ -1,0 +1,7 @@
+com\mycompany\primerservlet\JakartaRestConfiguration.class
+persistence\exceptions\NonexistentEntityException.class
+persistence\exceptions\PreexistingEntityException.class
+logica\Usuario.class
+com\mycompany\primerservlet\resources\JakartaEE10Resource.class
+persistence\exceptions\IllegalOrphanException.class
+com\mycompany\primerservlet\servlets\SvUsuarios.class
