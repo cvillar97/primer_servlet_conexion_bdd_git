@@ -25,7 +25,7 @@ public class UsuarioJpaController {
     
     private EntityManagerFactory eMf;
     
-    public UsuarioJpaController(EntityManagerFactory emf) {
+    public UsuarioJpaController() {
         this.eMf = Persistence.createEntityManagerFactory("EjemploJavaWeb_pu");
         this.em = eMf.createEntityManager();
     }

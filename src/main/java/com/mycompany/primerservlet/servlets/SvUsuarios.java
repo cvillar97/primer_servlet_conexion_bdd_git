@@ -11,6 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.List;
+import logica.ControladorLogica;
 import logica.Usuario;
 
 /**
@@ -20,6 +21,7 @@ import logica.Usuario;
 @WebServlet(name = "SvUsuarios", urlPatterns = {"/SvUsuarios"})
 public class SvUsuarios extends HttpServlet {
 
+    ControladorLogica controladorLogica = new ControladorLogica();
     
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -45,13 +47,15 @@ public class SvUsuarios extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-        List<Usuario> listaUsuarios = new ArrayList<>();
-        listaUsuarios.add(new Usuario("20665112", "Carlos", "Lopez", "265224485"));
-        listaUsuarios.add(new Usuario("24665112", "Felipe", "Juarez", "545224485"));
-        listaUsuarios.add(new Usuario("25665112", "Jorge", "Ubaldi", "635224485"));
+        List<Usuario> listaUsuarios = controladorLogica.getUsers();
+//        listaUsuarios.add(new Usuario("20665112", "Carlos", "Lopez", "265224485"));
+//        listaUsuarios.add(new Usuario("24665112", "Felipe", "Juarez", "545224485"));
+//        listaUsuarios.add(new Usuario("25665112", "Jorge", "Ubaldi", "635224485"));
         
         // Primero creamos una lista lógica y fuimos agregando manualmente
         // usuarios. Ahora vamos a traer a los usuarios de la DB.
+        
+        
         
         HttpSession miSesion = request.getSession();
         miSesion.setAttribute("listaUsuarios", listaUsuarios);
@@ -81,25 +85,20 @@ public class SvUsuarios extends HttpServlet {
         String apellido = request.getParameter("apellido");
         String telefono = request.getParameter("telefono");
         
-        System.out.println("dni: " + dni);
-        System.out.println("nombre: " + nombre);
-        System.out.println("apellido: " + apellido);
-        System.out.println("telefono: " + telefono);
+//        System.out.println("dni: " + dni);
+//        System.out.println("nombre: " + nombre);
+//        System.out.println("apellido: " + apellido);
+//        System.out.println("telefono: " + telefono);
         
         // En un ejercicio anterior mostramos los valores mediante
         // System.out.println
         
         // Mismo ejemplo pero ahora usando la conexión a la base de
         // datos:
-//        
-//        Usuario user = new Usuario();
-//        
-//        user.setDni(dni);
-//        user.setNombre(nombre);
-//        user.setApellido(apellido);
-//        user.setTelefono(telefono);
-//        
-//        control.crearUsuario(user);
+        
+        Usuario user = new Usuario(dni, nombre, apellido, telefono);
+        
+        controladorLogica.createUser(user);
         
     }
 
