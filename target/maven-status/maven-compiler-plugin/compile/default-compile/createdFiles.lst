@@ -1,7 +1,10 @@
 com\mycompany\primerservlet\JakartaRestConfiguration.class
+logica\ControladorLogica.class
 persistence\exceptions\NonexistentEntityException.class
 persistence\exceptions\PreexistingEntityException.class
 logica\Usuario.class
+persistence\UsuarioJpaController.class
 com\mycompany\primerservlet\resources\JakartaEE10Resource.class
 persistence\exceptions\IllegalOrphanException.class
 com\mycompany\primerservlet\servlets\SvUsuarios.class
+persistence\ControladorPersistencia.class

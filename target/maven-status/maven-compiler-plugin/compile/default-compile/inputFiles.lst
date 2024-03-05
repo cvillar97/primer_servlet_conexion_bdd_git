@@ -1,7 +1,10 @@
-C:\Cristian\Programacion\Curso Java\TodoCode\PrimerServlet\src\main\java\logica\Usuario.java
-C:\Cristian\Programacion\Curso Java\TodoCode\PrimerServlet\src\main\java\persistence\exceptions\NonexistentEntityException.java
-C:\Cristian\Programacion\Curso Java\TodoCode\PrimerServlet\src\main\java\persistence\exceptions\IllegalOrphanException.java
-C:\Cristian\Programacion\Curso Java\TodoCode\PrimerServlet\src\main\java\com\mycompany\primerservlet\servlets\SvUsuarios.java
-C:\Cristian\Programacion\Curso Java\TodoCode\PrimerServlet\src\main\java\com\mycompany\primerservlet\JakartaRestConfiguration.java
-C:\Cristian\Programacion\Curso Java\TodoCode\PrimerServlet\src\main\java\persistence\exceptions\PreexistingEntityException.java
-C:\Cristian\Programacion\Curso Java\TodoCode\PrimerServlet\src\main\java\com\mycompany\primerservlet\resources\JakartaEE10Resource.java
+C:\Cristian\Programacion\Curso Java\TodoCode\primer_servlet_conexion_bdd_git\src\main\java\com\mycompany\primerservlet\JakartaRestConfiguration.java
+C:\Cristian\Programacion\Curso Java\TodoCode\primer_servlet_conexion_bdd_git\src\main\java\persistence\exceptions\IllegalOrphanException.java
+C:\Cristian\Programacion\Curso Java\TodoCode\primer_servlet_conexion_bdd_git\src\main\java\persistence\exceptions\NonexistentEntityException.java
+C:\Cristian\Programacion\Curso Java\TodoCode\primer_servlet_conexion_bdd_git\src\main\java\persistence\exceptions\PreexistingEntityException.java
+C:\Cristian\Programacion\Curso Java\TodoCode\primer_servlet_conexion_bdd_git\src\main\java\com\mycompany\primerservlet\resources\JakartaEE10Resource.java
+C:\Cristian\Programacion\Curso Java\TodoCode\primer_servlet_conexion_bdd_git\src\main\java\logica\Usuario.java
+C:\Cristian\Programacion\Curso Java\TodoCode\primer_servlet_conexion_bdd_git\src\main\java\persistence\ControladorPersistencia.java
+C:\Cristian\Programacion\Curso Java\TodoCode\primer_servlet_conexion_bdd_git\src\main\java\com\mycompany\primerservlet\servlets\SvUsuarios.java
+C:\Cristian\Programacion\Curso Java\TodoCode\primer_servlet_conexion_bdd_git\src\main\java\logica\ControladorLogica.java
+C:\Cristian\Programacion\Curso Java\TodoCode\primer_servlet_conexion_bdd_git\src\main\java\persistence\UsuarioJpaController.java
