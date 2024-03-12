@@ -21,5 +21,12 @@
         <form action="SvUsuarios" method="GET">
             <button type="submit">Mostrar usuarios</button>
         </form>
+
+        <h1>Eliminar usuario</h1>
+        <p>Ingrese el ID del usuario que desea eliminar</p>
+        <form action="SvDeleteUsuario" method="POST">
+            <p> <label>Id: </label> <input type="number" name="id_usuario"></p>
+            <button type="submit">Eliminar usuario</button>
+        </form>
     </body>
 </html>
