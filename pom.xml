@@ -48,39 +48,43 @@
             <artifactId>org.eclipse.persistence.core</artifactId>
             <version>4.0.2</version>
         </dependency>
+
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>org.eclipse.persistence.asm</artifactId>
             <version>9.6.0</version>
         </dependency>
+
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>org.eclipse.persistence.antlr</artifactId>
             <version>2.7.14</version>
         </dependency>
+
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>org.eclipse.persistence.jpa</artifactId>
             <version>4.0.2</version>
         </dependency>
+
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>org.eclipse.persistence.jpa.jpql</artifactId>
             <version>4.0.2</version>
         </dependency>
+
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>org.eclipse.persistence.moxy</artifactId>
             <version>4.0.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.eclipse.persistence/jakarta.persistence -->
+
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>jakarta.persistence</artifactId>
             <version>2.2.3</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.eclipse.persistence/org.eclipse.persistence.jpa.modelgen.processor -->
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>org.eclipse.persistence.jpa.modelgen.processor</artifactId>
@@ -90,22 +94,26 @@
 
 
                 <!-- https://mvnrepository.com/artifact/org.eclipse/yasson -->
+        <!-- Si quito esta dependencia, funciona igual -->
+        <!--
         <dependency>
-            <groupId>org.eclipse</groupId>
-            <artifactId>yasson</artifactId>
-            <version>3.0.3</version>
-            <scope>runtime</scope>
+        <groupId>org.eclipse</groupId>
+        <artifactId>yasson</artifactId>
+        <version>3.0.3</version>
+        <scope>runtime</scope>
         </dependency>
+        -->
 
-
-        <!-- https://mvnrepository.com/artifact/org.eclipse.parsson/parsson -->
+                <!-- https://mvnrepository.com/artifact/org.eclipse.parsson/parsson -->
+        <!-- Si quito esta dependencia, funciona igual -->
+        <!--
         <dependency>
             <groupId>org.eclipse.parsson</groupId>
             <artifactId>parsson</artifactId>
             <version>1.1.5</version>
             <scope>runtime</scope>
         </dependency>
-
+        -->
 
 
     </dependencies>
