@@ -18,6 +18,7 @@
         %>
         
         <p><b>Usuario N° <%=contador++%></b></p>
+        <p>Id: <%=u.getId()%></p>
         <p>Dni: <%=u.getDni()%></p>
         <p>Nombre: <%=u.getNombre()%></p>
         <p>Apellido: <%=u.getApellido()%></p>
