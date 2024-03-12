@@ -4,8 +4,8 @@ import jakarta.persistence.*;
 import java.io.Serializable;
 
 
-@Entity
-public class Usuario {
+@Entity(name = "Usuario")
+public class Usuario implements Serializable {
     
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
