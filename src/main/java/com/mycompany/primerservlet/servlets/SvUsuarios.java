@@ -99,6 +99,8 @@ public class SvUsuarios extends HttpServlet {
         Usuario user = new Usuario(dni, nombre, apellido, telefono);
         
         controladorLogica.createUser(user);
+
+        response.sendRedirect("index.jsp");
         
     }
 
