@@ -24,5 +24,9 @@ public class ControladorLogica {
     public List<Usuario> getUsers() {
         return cPersist.getUsers();
     }
-    
+
+    //DELETE
+    public void deleteUser(int id) {
+        cPersist.deleteUser(id);
+    }
 }

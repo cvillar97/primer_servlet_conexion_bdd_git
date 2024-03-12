@@ -8,3 +8,4 @@ com\mycompany\primerservlet\resources\JakartaEE10Resource.class
 persistence\exceptions\IllegalOrphanException.class
 com\mycompany\primerservlet\servlets\SvUsuarios.class
 persistence\ControladorPersistencia.class
+logica\Usuario_.class
